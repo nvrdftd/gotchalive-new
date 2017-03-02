@@ -1,0 +1,28 @@
+{
+  "name": "gotchalive-new",
+  "version": "1.1.0",
+  "description": "Search movies and TV data through conversational interface",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "author": "Lung Chen Huang <perfecthuang413@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "helmet": "^3.4.0",
+    "mongodb": "^2.2.22",
+    "watson-developer-cloud": "^2.17.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "debug": "^2.6.1",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  }
+}
